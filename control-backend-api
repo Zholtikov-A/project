@@ -1,0 +1,8 @@
+Package: backend-api
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: admin <admin@example.local>
+Description: Backend API for caching test app
+ Depends: libc6

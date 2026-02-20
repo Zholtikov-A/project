@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu -o pipefail
+
 CURRENT_HOST=$(hostname)
 
 # Имена хостов

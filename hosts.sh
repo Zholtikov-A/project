@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu -o pipefail
+
 # Массив данных: "IP ИМЯ"
 HOSTS_LIST=(
 "192.168.1.118 proxy"
